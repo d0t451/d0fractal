@@ -115,7 +115,7 @@ if __name__ == '__main__':
     # draw_julia_image(800, 800)
 
     # 绘制渐变色Julia分形图像
-    draw_multi_color_julia_image(800, 800, begin_color=(36, 87, 193), end_color=(104, 230, 226), is_save_to_file=True)
+    draw_multi_color_julia_image(800, 800, begin_color=(0, 64, 64), end_color=(0, 255, 0), is_save_to_file=False)
 
     # 绘制Mandelbrot分形图像
     # draw_mandelbrot_image(800, 800)
